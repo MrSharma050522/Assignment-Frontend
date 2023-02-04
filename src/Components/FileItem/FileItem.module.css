@@ -1,0 +1,27 @@
+.list-items {
+  list-style: none;
+  margin: 1.2em;
+  background-color: aqua;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 1.2em 1.5em;
+}
+
+.list-items > svg {
+  color: brown;
+  font-size: 1.2em;
+  margin-right: 0.8em;
+}
+.list-items > p {
+  flex: 1;
+  font-size: 0.8em;
+}
+
+.actions {
+  justify-self: flex-end;
+  cursor: pointer;
+}
+.actions > svg {
+  font-size: 1.2em;
+}
