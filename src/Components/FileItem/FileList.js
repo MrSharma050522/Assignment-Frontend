@@ -3,7 +3,7 @@ import FileItem from "./FileItem";
 import classes from "./FileList.module.css";
 export default function FileList({ files, removeFile }) {
   const deleteFileHandler = (_name) => {
-    fetch(`http://localhost:5000/upload`, {
+    fetch(`http://localhost:5000/files`, {
       method: "DELETE",
     })
       .then((res) => res.json())
